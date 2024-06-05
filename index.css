@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    width: 100vw;
+    height: 100vh;
+    background-color: #0077B6;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    height: 90%;
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container p{
+    width: 30vw;
+    text-align: center;
+    font-size: 2.5rem;
+    font-family: sans-serif;
+    color: beige;
+    background-color: #03045E;
+    padding: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    border-radius: 1rem;
+    border-bottom: .3rem solid #00B4D8;
+    margin-bottom: 3rem;
+}
+
+.game{
+    width: 100%;
+    height: 100%;
+    background-color: #00B4D8;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    border: .3rem solid #03045E;
+    margin-bottom: 2rem;
+}
+
+.box{
+    width: 30%;
+    height: 30%;
+    border-radius: 1rem;
+    background-color: #ffe45e;
+    border: none;
+    outline: none;
+    font-size: 3.5rem;
+    color: #c1121f;
+    cursor: pointer;
+}
+
+.btn{
+    font-size: 1.2rem;
+    cursor: pointer;
+    padding: .6rem;
+    border: none;
+    outline: none;
+    border-radius: .5rem;
+    color: #CAF0F8;
+    background-color: #003459;
+    border: .1rem solid ;
+}
+
+.msg-container{
+    width: 100vw;
+    height: 100vh;
+    background-color: #0077B6;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    /* transition: all 1s ease-in; */
+}
+
+.hide{
+    display: none;
+}
+
+.msg{
+    text-align: center;
+    font-size: 2.5rem;
+    font-family: sans-serif;
+    color: beige;
+    background-color: #03045E;
+    padding: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    border-radius: 1rem;
+    border-bottom: .3rem solid #00B4D8;
+    margin-bottom: 3rem;
+}
